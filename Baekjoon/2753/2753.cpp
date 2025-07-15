@@ -1,15 +1,20 @@
 #include <iostream>
+#include <string>
 
 int main() {
   int year;
 
   std::cin >> year;
 
+  int result;
+
   if (year % 4 == 0 && (year % 100 != 0 || year % 400 == 0)) {
-    std::cout << 1 << std::endl;
+    result = 1;
   } else {
-    std::cout << 0 << std::endl;
+    result = 0;
   }
+
+  std::cout << result << std::endl;
 
   return 0;
 }
