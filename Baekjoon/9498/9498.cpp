@@ -1,21 +1,26 @@
 #include <iostream>
+#include <string>
 
 int main() {
   int score;
 
   std::cin >> score;
 
+  std::string grade;
+
   if (score >= 90) {
-    std::cout << "A" << std::endl;
+    grade = "A";
   } else if (score >= 80) {
-    std::cout << "B" << std::endl;
+    grade = "B";
   } else if (score >= 70) {
-    std::cout << "C" << std::endl;
+    grade = "C";
   } else if (score >= 60) {
-    std::cout << "D" << std::endl;
+    grade = "D";
   } else {
-    std::cout << "F" << std::endl;
+    grade = "F";
   }
+
+  std::cout << grade << std::endl;
 
   return 0;
 }
