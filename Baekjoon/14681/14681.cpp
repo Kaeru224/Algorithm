@@ -5,19 +5,23 @@ int main() {
 
   std::cin >> x >> y;
 
+  int quadrant;
+
   if (y > 0) {
     if (x > 0) {
-      std::cout << 1 << std::endl;
+      quadrant = 1;
     } else {
-      std::cout << 2 << std::endl;
+      quadrant = 2;
     }
   } else {
     if (x < 0) {
-      std::cout << 3 << std::endl;
+      quadrant = 3;
     } else {
-      std::cout << 4 << std::endl;
+      quadrant = 4;
     }
   }
+
+  std::cout << quadrant << std::endl;
 
   return 0;
 }
