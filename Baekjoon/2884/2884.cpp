@@ -6,17 +6,16 @@ int main() {
   std::cin >> h >> m;
 
   int totalMinutes = h * 60 + m;
+  int adjustedTotalMinutes = totalMinutes - 45;
 
-  int newTotalMinutes = totalMinutes - 45;
-
-  if (newTotalMinutes < 0) {
-    newTotalMinutes += 24 * 60;
+  if (adjustedTotalMinutes < 0) {
+    adjustedTotalMinutes += 24 * 60;
   }
 
-  int adjustedH = newTotalMinutes / 60;
-  int adjustedM = newTotalMinutes % 60;
+  int adjustedHours = adjustedTotalMinutes / 60;
+  int adjustedMinutes = adjustedTotalMinutes % 60;
 
-  std::cout << adjustedH << " " << adjustedM << std::endl;
+  std::cout << adjustedHours << " " << adjustedMinutes << std::endl;
 
   return 0;
 }
