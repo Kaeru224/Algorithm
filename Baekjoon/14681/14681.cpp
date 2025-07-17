@@ -5,7 +5,7 @@ int main() {
 
   std::cin >> x >> y;
 
-  int quadrant;
+  int quadrant{};
 
   if (y > 0) {
     if (x > 0) {
