@@ -6,7 +6,7 @@ int main() {
 
   std::cin >> year;
 
-  int result;
+  int result{};
 
   if (year % 4 == 0 && (year % 100 != 0 || year % 400 == 0)) {
     result = 1;
