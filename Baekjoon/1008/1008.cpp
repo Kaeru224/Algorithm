@@ -2,11 +2,14 @@
 #include <iostream>
 
 int main() {
-  double a, b;
+  double a{};
+  double b{};
 
   std::cin >> a >> b;
 
-  std::cout << std::fixed << std::setprecision(10) << a / b << std::endl;
+  double result = a / b;
+
+  std::cout << std::fixed << std::setprecision(10) << result << std::endl;
 
   return 0;
 }
