@@ -2,7 +2,9 @@
 #include <iostream>
 
 int main() {
-  int die1, die2, die3;
+  int die1{};
+  int die2{};
+  int die3{};
 
   std::cin >> die1 >> die2 >> die3;
 
