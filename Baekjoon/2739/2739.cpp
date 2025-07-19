@@ -1,12 +1,14 @@
 #include <iostream>
 
 int main() {
-  int n;
+  int n{};
 
   std::cin >> n;
 
   for (int i{1}; i <= 9; i++) {
-    std::cout << n << " * " << i << " = " << n * i << std::endl;
+    int result = n * i;
+
+    std::cout << n << " * " << i << " = " << result << std::endl;
   }
 
   return 0;
