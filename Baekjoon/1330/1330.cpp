@@ -2,11 +2,12 @@
 #include <string>
 
 int main() {
-  int a, b;
+  int a{};
+  int b{};
 
   std::cin >> a >> b;
 
-  std::string result;
+  std::string result{};
 
   if (a > b) {
     result = ">";
