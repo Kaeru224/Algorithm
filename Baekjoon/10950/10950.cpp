@@ -6,7 +6,8 @@ int main() {
   std::cin >> t;
 
   for (int i{1}; i <= t; i++) {
-    int a{}, b{};
+    int a{};
+    int b{};
 
     std::cin >> a >> b;
 
