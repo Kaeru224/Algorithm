@@ -7,7 +7,7 @@ int main() {
 
   std::cin >> a >> b;
 
-  std::string result{};
+  std::string result;
 
   if (a > b) {
     result = ">";
