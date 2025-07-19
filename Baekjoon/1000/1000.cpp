@@ -1,11 +1,14 @@
 #include <iostream>
 
 int main() {
-  int a, b;
+  int a{};
+  int b{};
 
   std::cin >> a >> b;
 
-  std::cout << a + b << std::endl;
+  int sum = a + b;
+
+  std::cout << sum << std::endl;
 
   return 0;
 }
