@@ -2,19 +2,13 @@
 #include <string>
 
 int main() {
-  int year;
+  int year{};
 
   std::cin >> year;
 
-  int result{};
+  bool isLeapYear = year % 4 == 0 && (year % 100 != 0 || year % 400 == 0);
 
-  if (year % 4 == 0 && (year % 100 != 0 || year % 400 == 0)) {
-    result = 1;
-  } else {
-    result = 0;
-  }
-
-  std::cout << result << std::endl;
+  std::cout << isLeapYear << std::endl;
 
   return 0;
 }
