@@ -7,9 +7,10 @@ int main() {
 
   std::cin >> a >> b;
 
-  double result = a / b;
+  double divisionResult = a / b;
 
-  std::cout << std::fixed << std::setprecision(10) << result << std::endl;
+  std::cout << std::fixed << std::setprecision(10) << divisionResult
+            << std::endl;
 
   return 0;
 }
