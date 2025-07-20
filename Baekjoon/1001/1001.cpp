@@ -6,9 +6,9 @@ int main() {
 
   std::cin >> a >> b;
 
-  int result = a - b;
+  int difference = a - b;
 
-  std::cout << result << std::endl;
+  std::cout << difference << std::endl;
 
   return 0;
 }
