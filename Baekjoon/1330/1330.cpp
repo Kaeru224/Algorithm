@@ -7,17 +7,17 @@ int main() {
 
   std::cin >> a >> b;
 
-  std::string result;
+  std::string comparisonResult;
 
   if (a > b) {
-    result = ">";
+    comparisonResult = ">";
   } else if (a < b) {
-    result = "<";
+    comparisonResult = "<";
   } else {
-    result = "==";
+    comparisonResult = "==";
   }
 
-  std::cout << result << std::endl;
+  std::cout << comparisonResult << std::endl;
 
   return 0;
 }
