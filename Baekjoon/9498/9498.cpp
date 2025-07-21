@@ -2,7 +2,7 @@
 #include <string>
 
 int main() {
-  int score;
+  int score{};
 
   std::cin >> score;
 
