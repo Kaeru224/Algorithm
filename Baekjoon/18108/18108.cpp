@@ -1,11 +1,13 @@
 #include <iostream>
 
 int main() {
-  int buddhistYear;
+  int adYear{};
 
-  std::cin >> buddhistYear;
+  std::cin >> adYear;
 
-  std::cout << buddhistYear - 543 << std::endl;
+  int buddhistYear = adYear - 543;
+
+  std::cout << buddhistYear << std::endl;
 
   return 0;
 }
