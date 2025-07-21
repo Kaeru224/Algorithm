@@ -1,7 +1,8 @@
 #include <iostream>
 
 int main() {
-  int h, m;
+  int h{};
+  int m{};
 
   std::cin >> h >> m;
 
