@@ -6,9 +6,9 @@ int main() {
   std::cin >> n;
 
   for (int i{1}; i <= 9; i++) {
-    int result = n * i;
+    int product = n * i;
 
-    std::cout << n << " * " << i << " = " << result << std::endl;
+    std::cout << n << " * " << i << " = " << product << std::endl;
   }
 
   return 0;
