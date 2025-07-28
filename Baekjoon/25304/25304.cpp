@@ -8,7 +8,7 @@ int main() {
 
   int calculatedTotal{};
 
-  for (int i{1}; i <= n; i++) {
+  for (int i{1}; i <= n; ++i) {
     int a{};
     int b{};
 
