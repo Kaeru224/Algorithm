@@ -5,7 +5,7 @@ int main() {
 
   std::cin >> n;
 
-  for (int i{1}; i <= 9; i++) {
+  for (int i{1}; i <= 9; ++i) {
     int product = n * i;
 
     std::cout << n << " * " << i << " = " << product << std::endl;
