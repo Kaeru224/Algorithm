@@ -7,7 +7,7 @@ int main() {
 
   int numLongsToPrint = n / 4;
 
-  for (int i{1}; i <= numLongsToPrint; i++) {
+  for (int i{1}; i <= numLongsToPrint; ++i) {
     std::cout << "long ";
   }
 
