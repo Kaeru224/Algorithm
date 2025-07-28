@@ -5,7 +5,7 @@ int main() {
 
   std::cin >> t;
 
-  for (int i{1}; i <= t; i++) {
+  for (int i{1}; i <= t; ++i) {
     int a{};
     int b{};
 
