@@ -9,11 +9,8 @@ int main() {
   std::cin >> n;
 
   for (int line{1}; line <= n; ++line) {
-    for (int spaceCount{1}; spaceCount <= n - line; ++spaceCount) {
-      std::cout << ' ';
-    }
-    for (int starCount{1}; starCount <= line; ++starCount) {
-      std::cout << '*';
+    for (int col{1}; col <= n; ++col) {
+      std::cout << (col <= n - line ? ' ' : '*');
     }
     std::cout << '\n';
   }
