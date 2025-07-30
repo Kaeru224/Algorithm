@@ -5,16 +5,16 @@ int main() {
   std::cin.tie(NULL);
 
   while (true) {
-    int numA{};
-    int numB{};
+    int a{};
+    int b{};
 
-    std::cin >> numA >> numB;
+    std::cin >> a >> b;
 
-    if (numA == 0 && numB == 0) {
+    if (a == 0 && b == 0) {
       break;
     }
 
-    int sum = numA + numB;
+    int sum = a + b;
 
     std::cout << sum << '\n';
   }
