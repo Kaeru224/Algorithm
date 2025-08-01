@@ -25,7 +25,7 @@ int main() {
     maxVal = std::max(maxVal, currentNum);
   }
 
-  std::cout << minVal << " " << maxVal << '\n';
+  std::cout << minVal << ' ' << maxVal << '\n';
 
   return 0;
 }
