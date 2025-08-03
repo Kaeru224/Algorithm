@@ -12,7 +12,7 @@ int main() {
 
   std::vector<int> baskets(n + 1);
 
-  for (int count{1}; count <= m; ++count) {
+  for (int operationIndex{1}; operationIndex <= m; ++operationIndex) {
     int i{};
     int j{};
     int k{};
@@ -24,8 +24,8 @@ int main() {
     }
   }
 
-  for (int index{1}; index <= n; ++index) {
-    std::cout << baskets[index] << ' ';
+  for (int i{1}; i <= n; ++i) {
+    std::cout << baskets[i] << ' ';
   }
 
   std::cout << '\n';
