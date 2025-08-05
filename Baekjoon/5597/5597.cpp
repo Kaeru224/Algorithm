@@ -7,7 +7,7 @@ int main() {
 
   std::vector<bool> students(31);
 
-  for (int i{1}; i <= 28; ++i) {
+  for (int i{}; i < 28; ++i) {
     int studentNum{};
     std::cin >> studentNum;
     students[studentNum] = true;
