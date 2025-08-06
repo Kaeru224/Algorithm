@@ -9,7 +9,9 @@ int main() {
 
   for (int i{}; i < 28; ++i) {
     int studentNum{};
+
     std::cin >> studentNum;
+
     students[studentNum] = true;
   }
 
