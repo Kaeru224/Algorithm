@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
 
 int main() {
   std::ios_base::sync_with_stdio(false);
@@ -19,13 +20,7 @@ int main() {
 
   std::cin >> v;
 
-  int foundCount{};
-
-  for (int i{}; i < n; ++i) {
-    if (numbers[i] == v) {
-      foundCount++;
-    }
-  }
+  int foundCount = std::count(numbers.begin(), numbers.end(), v);
 
   std::cout << foundCount << '\n';
 
