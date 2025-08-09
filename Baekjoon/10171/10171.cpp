@@ -1,10 +1,9 @@
 #include <iostream>
 
 int main() {
-  std::cout << "\\    /\\" << std::endl;
-  std::cout << " )  ( ')" << std::endl;
-  std::cout << "(  /  )" << std::endl;
-  std::cout << " \\(__)|" << std::endl;
-
+  std::cout << R"(\    /\
+ )  ( ')
+(  /  )
+ \(__)|)" << '\n';
   return 0;
 }
