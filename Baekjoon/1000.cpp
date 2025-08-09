@@ -6,9 +6,7 @@ int main() {
 
   std::cin >> a >> b;
 
-  int sum = a + b;
-
-  std::cout << sum << std::endl;
+  std::cout << a + b << '\n';
 
   return 0;
 }
