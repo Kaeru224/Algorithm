@@ -6,23 +6,15 @@ int main() {
 
   std::cin >> x >> y;
 
-  int quadrant{};
-
-  if (y > 0) {
-    if (x > 0) {
-      quadrant = 1;
-    } else {
-      quadrant = 2;
-    }
+  if (x > 0 && y > 0) {
+    std::cout << 1 << std::endl;
+  } else if (x < 0 && y > 0) {
+    std::cout << 2 << std::endl;
+  } else if (x < 0 && y < 0) {
+    std::cout << 3 << std::endl;
   } else {
-    if (x < 0) {
-      quadrant = 3;
-    } else {
-      quadrant = 4;
-    }
+    std::cout << 4 << std::endl;
   }
-
-  std::cout << quadrant << std::endl;
 
   return 0;
 }
