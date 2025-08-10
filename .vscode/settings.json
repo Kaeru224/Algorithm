@@ -53,5 +53,6 @@
     "typeinfo": "cpp",
     "variant": "cpp"
   },
-  "cmake.sourceDirectory": "C:/Users/tmdn0/Desktop/Algorithm/Baekjoon"
+  "cmake.sourceDirectory": "C:/Users/tmdn0/Desktop/Algorithm/Baekjoon",
+  "mesonbuild.configureOnOpen": true
 }
