@@ -10,7 +10,7 @@ int main() {
 
   std::cin >> a >> b >> c;
 
-  std::cout << (a * 60 + b + c) / 60 % 24 << " " << (a * 60 + b + c) % 60
+  std::cout << (a * 60 + b + c) / 60 % 24 << ' ' << (a * 60 + b + c) % 60
             << '\n';
 
   return 0;
