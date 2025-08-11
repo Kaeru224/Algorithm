@@ -5,25 +5,21 @@ int main() {
   std::ios_base::sync_with_stdio(false);
   std::cin.tie(NULL);
 
-  int die1{};
-  int die2{};
-  int die3{};
+  int a{};
+  int b{};
+  int c{};
 
-  std::cin >> die1 >> die2 >> die3;
+  std::cin >> a >> b >> c;
 
-  int prizeMoney{};
-
-  if (die1 == die2 && die2 == die3) {
-    prizeMoney = 10000 + die1 * 1000;
-  } else if (die1 == die2 || die1 == die3) {
-    prizeMoney = 1000 + die1 * 100;
-  } else if (die2 == die3) {
-    prizeMoney = 1000 + die2 * 100;
+  if (a == b && b == c) {
+    std::cout << 10000 + a * 1000 << '\n';
+  } else if (a == b || a == c) {
+    std::cout << 1000 + a * 100 << '\n';
+  } else if (b == c) {
+    std::cout << 1000 + b * 100 << '\n';
   } else {
-    prizeMoney = std::max({die1, die2, die3}) * 100;
+    std::cout << std::max({a, b, c}) * 100 << '\n';
   }
-
-  std::cout << prizeMoney << '\n';
 
   return 0;
 }
