@@ -1,8 +1,11 @@
 #include <iostream>
 
 int main() {
-  int a = 0;
-  int b = 0;
+  std::ios_base::sync_with_stdio(false);
+  std::cin.tie(NULL);
+
+  int a{};
+  int b{};
 
   std::cin >> a >> b;
 
