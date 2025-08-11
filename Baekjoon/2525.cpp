@@ -10,12 +10,8 @@ int main() {
 
   std::cin >> a >> b >> c;
 
-  int totalMinutes = a * 60 + b + c;
-
-  int endHours = (totalMinutes / 60) % 24;
-  int endMinutes = totalMinutes % 60;
-
-  std::cout << endHours << " " << endMinutes << '\n';
+  std::cout << ((a * 60 + b + c) / 60) % 24 << " " << (a * 60 + b + c) % 60
+            << '\n';
 
   return 0;
 }
