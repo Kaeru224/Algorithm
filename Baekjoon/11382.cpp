@@ -10,9 +10,7 @@ int main() {
 
   std::cin >> a >> b >> c;
 
-  long long sum = a + b + c;
-
-  std::cout << sum << '\n';
+  std::cout << a + b + c << '\n';
 
   return 0;
 }
